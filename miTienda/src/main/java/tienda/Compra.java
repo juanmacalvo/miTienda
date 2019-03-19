@@ -24,7 +24,7 @@ public class Compra {
         int pvp = sc.nextInt();
         System.out.println("Introduzca cantidad de articulo: ");
         int cantidad = sc.nextInt();
-        Articulo a = new Articulo (cantidad, pvp, id, cantidad);
+        Articulo a = new Articulo (pvp, id, cantidad);
         A.add(a);
     }
     
