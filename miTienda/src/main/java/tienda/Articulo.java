@@ -14,11 +14,21 @@ public class Articulo {
     private int cantidad;
     private int pvp;
     private int id;
+    private int stock;
 
-    public Articulo(int cantidad, int pvp, int id) {
+    public Articulo(int cantidad, int pvp, int id, int stock) {
         this.cantidad = cantidad;
         this.pvp = pvp;
         this.id = id;
+        this.stock=stock;
+    }
+
+    public int getStock() {
+        return stock;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
     }
 
     public int getCantidad() {
