@@ -14,9 +14,19 @@ import java.util.ArrayList;
 public class Principal {
     
     public static void main(String[] args){
-        
         ArrayList<Articulo> lista;
         lista=new ArrayList<>();
+        
+        
+        //compramos al proveedor
+        Compra c1 = new Compra();
+        c1.compra(lista);
+        
+        //vendemos productos al cliente
+        Venta v1=new Venta();
+        v1.vender(lista);
+       
+        
         
     }
     
