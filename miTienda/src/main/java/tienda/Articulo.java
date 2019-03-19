@@ -11,13 +11,11 @@ package tienda;
  */
 public class Articulo {
 
-    private int cantidad;
     private int pvp;
     private int id;
     private int stock;
 
-    public Articulo(int cantidad, int pvp, int id, int stock) {
-        this.cantidad = cantidad;
+    public Articulo(int pvp, int id, int stock) {
         this.pvp = pvp;
         this.id = id;
         this.stock=stock;
@@ -31,9 +29,6 @@ public class Articulo {
         this.stock = stock;
     }
 
-    public int getCantidad() {
-        return cantidad;
-    }
 
     public int getPvp() {
         return pvp;
@@ -43,9 +38,7 @@ public class Articulo {
         return id;
     }
 
-    public void setCantidad(int cantidad) {
-        this.cantidad = cantidad;
-    }
+
 
     public void setPvp(int pvp) {
         this.pvp = pvp;
