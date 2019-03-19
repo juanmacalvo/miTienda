@@ -14,13 +14,6 @@ import java.util.Scanner;
  */
 public class Venta {
     
-    private Articulo art;
-
-    
-    
-    public Venta(Articulo art) {
-        this.art = art;
-    }
        
     public void vender (ArrayList<Articulo> articulos)
     {
